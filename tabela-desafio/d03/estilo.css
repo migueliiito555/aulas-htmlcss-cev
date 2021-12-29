@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font: normal 1.05em Calibri;
+}
+
+body {
+    background: rgb(255, 80, 80);
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+}
+
+table th,
+table td {
+    background: darkslateblue;
+    border: 5px solid rgb(0, 200, 255);
+    padding: 10px;
+}
+
+table th {
+    background:rgb(54, 46, 107);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-of-type(odd) td {
+    background: rgb(90, 77, 177);
+}
