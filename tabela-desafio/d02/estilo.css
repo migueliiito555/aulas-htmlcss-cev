@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    font: normal 1.5em Arial, Helvetica, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: .3em;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+tbody td {
+    border: 5px solid grey;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
