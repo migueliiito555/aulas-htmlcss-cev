@@ -6,7 +6,7 @@
 /* Configuração geral */
 * {
     margin: 0;
-    user-zoom: 0;
+    user-zoom: fixed;
 }
 
 
@@ -55,6 +55,7 @@ div {
 
 div:first-of-type {
     background: url("imagens/fundo-joaninha.jpg") fixed center no-repeat;
+    background-size: cover;
 }
 
 div > section {
