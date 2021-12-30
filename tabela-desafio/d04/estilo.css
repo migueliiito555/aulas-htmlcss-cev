@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    font: normal 1em Calibri, Verdana, sans-serif;
+    user-zoom: fixed;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    background: cornflowerblue;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    background: white;
+    width: 700px;
+    font-size: 1.5em;
+}
+
+table td,
+table th {
+    border: 5px solid black;
+    padding: 10px;
+}
+
+table th {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+thead th {
+    background: grey;
+    color: white;
+}
+
+tbody th[scope="row"] {
+    text-align: left;
+}
+
+tbody th[scope="row"],
+.mediaTot {
+    background: grey;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    background: rgb(71, 113, 192);
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 10px 0;
+    bottom: 0;
+}
